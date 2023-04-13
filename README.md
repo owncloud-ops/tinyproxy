@@ -2,6 +2,7 @@
 
 [![Build Status](https://drone.owncloud.com/api/badges/owncloud-ops/tinyproxy/status.svg)](https://drone.owncloud.com/owncloud-ops/tinyproxy/)
 [![Docker Hub](https://img.shields.io/badge/docker-latest-blue.svg?logo=docker&logoColor=white)](https://hub.docker.com/r/owncloudops/tinyproxy)
+[![Quay.io](https://img.shields.io/badge/quay-latest-blue.svg?logo=docker&logoColor=white)](https://quay.io/repository/owncloudops/tinyproxy)
 
 Custom container image for [Tinyproxy](https://tinyproxy.github.io/).
 

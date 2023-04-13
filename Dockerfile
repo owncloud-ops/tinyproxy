@@ -17,7 +17,6 @@ ENV CONTAINER_LIBRARY_VERSION="${CONTAINER_LIBRARY_VERSION:-v0.1.0}"
 
 ADD overlay/ /
 
-
 RUN addgroup -g 1001 -S app && \
     adduser -S -D -u 1001 -h /opt/app -s /sbin/nologin -G app -g app app && \
     apk --update add --virtual .build-deps curl tar && \
