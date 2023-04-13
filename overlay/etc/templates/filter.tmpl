@@ -1,0 +1,3 @@
+{{- range split (getenv "TINYPROXY_FILTER_LIST") "," }}
+{{ . }}
+{{- end }}
