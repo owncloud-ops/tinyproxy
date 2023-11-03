@@ -147,5 +147,3 @@ trigger:
 
 depends_on:
   - container
-
-...
